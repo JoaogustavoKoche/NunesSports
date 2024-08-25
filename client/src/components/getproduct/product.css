@@ -1,0 +1,75 @@
+.productTable {
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 1200px;
+}
+
+.addButton {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f0f8ff;
+    color: #007bff;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s;
+}
+
+.addButton:hover {
+    background-color: #007bff;
+    color: #f0f8ff;
+}
+
+.productTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.productTable table thead th {
+    background-color: #27619b;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+
+.productTable table tbody td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.actionButtons button {
+    border: none;
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actionButtons button:hover {
+    background-color: #c82333;
+}
+
+.actionButtons a {
+    display: inline-block;
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.actionButtons a:hover {
+    background-color: #218838;
+}
